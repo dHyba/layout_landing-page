@@ -11,8 +11,8 @@
   }
 
   &__content {
-    position: relative;
-    padding-inline: 20px;
+    // position: relative;
+    @include content-padding-in-line;
   }
 
   &__nav {
